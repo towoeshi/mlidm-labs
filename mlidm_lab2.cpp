@@ -94,11 +94,6 @@ int main() {
 		cout << "relation is antisymmetric\n";
 	if (!isAntisymmetric(relation))
 		cout << "relation isn't antisymmetric\n";
-	/*for (int i = 0; i < n; i++) {
-		for (int j = 0; j < 2; j++)
-			cout << relation[i][j] << " ";
-		cout << "\n";
-	}*/
 
 	return 0;
 }
